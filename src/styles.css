@@ -1,0 +1,44 @@
+ body {
+  margin: 0;
+  padding: 0;
+ }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+div {
+  margin: 1px 0;
+}
+
+.component {
+  border-style: dashed;
+  background-color: lightgray;
+  width: 50%;
+}
+
+.label {
+  background-color: lightgoldenrodyellow;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.header-component, 
+.content-component, 
+.footer-component {
+  padding-top: 10px;
+}
+
+.header-component,
+.footer-component {
+  padding-bottom: 30px;
+}
+
+.content-component {
+  padding-bottom: 100px;
+}
